@@ -4,6 +4,7 @@ import { IRead } from '../interfaces/IRead';
 import { IRamove } from '../interfaces/IRemove';
 import { IUpdate } from '../interfaces/IUpdate';
 
+/** @class CrudService this is a class implement "template pattern and implement to interface segregation. */
 export class CrudService extends BeforeAfter implements ICreate, IRead, IUpdate, IRamove {
 
     constructor() {
