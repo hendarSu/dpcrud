@@ -16,7 +16,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@dpcrud/libs": ["libs/general/src/*"]
+      "@dpcrud/libs": ["libs/general/src/*"],
+      "@dpcrud/tools": ["libs/tools/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

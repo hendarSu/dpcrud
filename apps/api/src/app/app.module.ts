@@ -5,8 +5,15 @@ import { AppService } from './app.service';
 import { UserModule } from './users/user.module';
 import { GeneralModule } from 'libs/general/src/modules/general.module'
 import { OrderModule } from './orders/order.module';
+import { ConfigModule } from '@nestjs/config';
+
 @Module({
-  imports: [UserModule, GeneralModule, OrderModule],
+  imports: [
+    ConfigModule.forRoot(),
+    UserModule, 
+    GeneralModule, 
+    OrderModule
+  ],
   controllers: [AppController],
   providers: [AppService],
 })

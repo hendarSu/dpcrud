@@ -1,0 +1,17 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "This library was generated with [Nx](https://nx.dev).",
+  "main": "jest.config.js",
+  "scripts": {},
+  "author": "hendarsundana@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@types/redis": "^2.8.28",
+    "bull": "^3.20.0",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/bull": "^3.14.4"
+  }
+}
